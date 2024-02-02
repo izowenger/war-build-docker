@@ -1,4 +1,4 @@
-def pipelineContext = [:]
+
 node {
    def registryProjet='registry.gitlab.com/xavki/presentations-jenkins/wartest'
    def IMAGE="${registryProjet}:version-${env.BUILD_ID}"
